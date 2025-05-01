@@ -11,7 +11,8 @@ An image auto-encoder built using a spatially aware linear layer (`NdLinear`) to
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [Project Structure](#project-structure)  
-- [Model Architecture](#model-architecture)  
+- [Model Architecture](#model-architecture)
+- [Training Loss Comparison](#training-loss-comparison)  
 - [Examples & Notebook](#examples--notebook)  
 - [Dependencies](#dependencies)  
 - [Contributing](#contributing)  
@@ -99,6 +100,18 @@ jupyter notebook auto_encoder.ipynb
   Mirrors the encoder using `NdLinear` blocks, followed by a final `ConvTranspose2d` to upscale back to original resolution.
 
 See `models.py` for full layer definitions and hyperparameters.
+
+---
+
+## Training Loss Comparison
+
+Below are the training loss curves for the two auto-encoder variants:
+
+### Convolutional Autoencoder
+![Convolutional AE Training Loss](conv_ae_training.png)
+
+### NdLinear Autoencoder
+![NdLinear AE Training Loss](nd_ae_training.png)
 
 ---
 
