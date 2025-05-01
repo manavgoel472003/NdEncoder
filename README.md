@@ -1,6 +1,6 @@
 # NdEncoder
 
-An image auto-encoder built using a spatially aware linear layer (`NdLinear`) to preserve and exploit multi-dimensional structure in feature maps.
+An image auto-encoder built using a spatially aware linear layer (`NdLinear`) to preserve and exploit multi-dimensional structure in feature maps. 
 
 ---
 
@@ -143,7 +143,7 @@ If you’d like to use or extend it, please contact the maintainer to clarify us
 
 **Manav Goel**  
 - GitHub: [@manavgoel472003](https://github.com/manavgoel472003)  
-- Email: _your_email@example.com_ (replace with your contact)  
+- Email: _manavgoel47@gmail.com_
 
 Feel free to open issues or reach out for questions!
 
